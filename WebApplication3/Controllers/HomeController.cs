@@ -29,6 +29,17 @@ namespace WebApplication3.Controllers
             return View();
         }
 
+        //code added on 27/feb/2018
+        //code created by: Gaurav
+        //Pourpouse of this is to render register view in webbrowser
+        public IActionResult Login()
+        {
+            ViewData["Message"] = "Your Login Page";
+
+            //code for returning view
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
