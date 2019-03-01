@@ -40,6 +40,11 @@ namespace WebApplication3.Controllers
             return View();
         }
 
+        
+        
+
+
+
         //code added on 27/feb/2018
         //code created by: Gaurav
         //Pourpouse of this is to render Register view in webbrowser
